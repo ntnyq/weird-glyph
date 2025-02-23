@@ -40,6 +40,7 @@
   "scripts": {
     "build": "tsup",
     "coverage": "vitest --coverage",
+    "deploy": "run-s build play:build",
     "dev": "tsup --watch src",
     "lint": "eslint .",
     "play": "pnpm -C playground run dev",
@@ -72,9 +73,13 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "esbuild": "^0.25.0"
+    }
   },
   "nano-staged": {
-    "*.{js,ts,mjs,cjs,md,yml,yaml,json}": "eslint --fix"
+    "*.{js,ts,mjs,cjs,md,yml,yaml,json}": "eslint --fix",
+    "*.{css,scss,html}": "prettier -uw"
   }
 }
