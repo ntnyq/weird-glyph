@@ -26,11 +26,13 @@
     "bumpp",
     "changelogithub",
     "codecov",
+    "iconify",
     "lcov",
     "pnpm",
     "tsup",
     "vite",
     "vitest",
+    "vueuse",
     "xabove"
   ],
   "cSpell.allowCompoundWords": true
