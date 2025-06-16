@@ -50,7 +50,7 @@
     "@ntnyq/eslint-config": "^4.3.0",
     "@ntnyq/prettier-config": "^2.2.0",
     "bumpp": "^10.1.1",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^8.0.4",
@@ -58,7 +58,7 @@
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
-    "vitest": "^3.2.2"
+    "vitest": "^3.2.3"
   },
   "engines": {
     "node": ">=18.18.0"
