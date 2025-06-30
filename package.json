@@ -2,7 +2,7 @@
   "name": "weird-glyph",
   "type": "module",
   "version": "0.0.2",
-  "packageManager": "pnpm@10.12.2",
+  "packageManager": "pnpm@10.12.4",
   "description": "Transform common glyphs to weird glyphs.",
   "keywords": [
     "weird-glyph"
@@ -50,11 +50,11 @@
     "@ntnyq/eslint-config": "^4.3.0",
     "@ntnyq/prettier-config": "^3.0.1",
     "bumpp": "^10.2.0",
-    "eslint": "^9.29.0",
+    "eslint": "^9.30.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.6.0",
+    "prettier": "^3.6.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
