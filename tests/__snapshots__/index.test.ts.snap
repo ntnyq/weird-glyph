@@ -1,171 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`weirdGlyph 1`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "serif",
-    "variant": "regular",
-  },
-  "result": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-}
-`;
-
-exports[`weirdGlyph 2`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "serif",
-    "variant": "bold",
-  },
-  "result": "𝐀𝐁𝐂𝐃𝐄𝐅𝐆𝐇𝐈𝐉𝐊𝐋𝐌𝐍𝐎𝐏𝐐𝐑𝐒𝐓𝐔𝐕𝐖𝐗𝐘𝐙𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗",
-}
-`;
-
-exports[`weirdGlyph 3`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "serif",
-    "variant": "italic",
-  },
-  "result": "𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍𝑎𝑏𝑐𝑑𝑒𝑓𝑔ℎ𝑖𝑗𝑘𝑙𝑚𝑛𝑜𝑝𝑞𝑟𝑠𝑡𝑢𝑣𝑤𝑥𝑦𝑧",
-}
-`;
-
-exports[`weirdGlyph 4`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "serif",
-    "variant": "bold-italic",
-  },
-  "result": "𝑨𝑩𝑪𝑫𝑬𝑭𝑮𝑯𝑰𝑱𝑲𝑳𝑴𝑵𝑶𝑷𝑸𝑹𝑺𝑻𝑼𝑽𝑾𝑿𝒀𝒁𝒂𝒃𝒄𝒅𝒆𝒇𝒈𝒉𝒊𝒋𝒌𝒍𝒎𝒏𝒐𝒑𝒒𝒓𝒔𝒕𝒖𝒗𝒘𝒙𝒚𝒛",
-}
-`;
-
-exports[`weirdGlyph 5`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "sans-serif",
-    "variant": "regular",
-  },
-  "result": "𝖠𝖡𝖢𝖣𝖤𝖥𝖦𝖧𝖨𝖩𝖪𝖫𝖬𝖭𝖮𝖯𝖰𝖱𝖲𝖳𝖴𝖵𝖶𝖷𝖸𝖹𝖺𝖻𝖼𝖽𝖾𝖿𝗀𝗁𝗂𝗃𝗄𝗅𝗆𝗇𝗈𝗉𝗊𝗋𝗌𝗍𝗎𝗏𝗐𝗑𝗒𝗓𝟢𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫",
-}
-`;
-
-exports[`weirdGlyph 6`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "sans-serif",
-    "variant": "bold",
-  },
-  "result": "𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤𝗥𝗦𝗧𝗨𝗩𝗪𝗫𝗬𝗭𝗮𝗯𝗰𝗱𝗲𝗳𝗴𝗵𝗶𝗷𝗸𝗹𝗺𝗻𝗼𝗽𝗾𝗿𝘀𝘁𝘂𝘃𝘄𝘅𝘆𝘇𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵",
-}
-`;
-
-exports[`weirdGlyph 7`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "sans-serif",
-    "variant": "italic",
-  },
-  "result": "𝘈𝘉𝘊𝘋𝘌𝘍𝘎𝘏𝘐𝘑𝘒𝘓𝘔𝘕𝘖𝘗𝘘𝘙𝘚𝘛𝘜𝘝𝘞𝘟𝘠𝘡𝘢𝘣𝘤𝘥𝘦𝘧𝘨𝘩𝘪𝘫𝘬𝘭𝘮𝘯𝘰𝘱𝘲𝘳𝘴𝘵𝘶𝘷𝘸𝘹𝘺𝘻",
-}
-`;
-
-exports[`weirdGlyph 8`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "sans-serif",
-    "variant": "bold-italic",
-  },
-  "result": "𝘼𝘽𝘾𝘿𝙀𝙁𝙂𝙃𝙄𝙅𝙆𝙇𝙈𝙉𝙊𝙋𝙌𝙍𝙎𝙏𝙐𝙑𝙒𝙓𝙔𝙕𝙖𝙗𝙘𝙙𝙚𝙛𝙜𝙝𝙞𝙟𝙠𝙡𝙢𝙣𝙤𝙥𝙦𝙧𝙨𝙩𝙪𝙫𝙬𝙭𝙮𝙯",
-}
-`;
-
-exports[`weirdGlyph 9`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "script",
-    "variant": "regular",
-  },
-  "result": "𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏",
-}
-`;
-
-exports[`weirdGlyph 10`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "script",
-    "variant": "bold",
-  },
-  "result": "𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃",
-}
-`;
-
-exports[`weirdGlyph 11`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "fraktur",
-    "variant": "regular",
-  },
-  "result": "𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷",
-}
-`;
-
-exports[`weirdGlyph 12`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "fraktur",
-    "variant": "bold",
-  },
-  "result": "𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟",
-}
-`;
-
-exports[`weirdGlyph 13`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "monospace",
-    "variant": "regular",
-  },
-  "result": "𝙰𝙱𝙲𝙳𝙴𝙵𝙶𝙷𝙸𝙹𝙺𝙻𝙼𝙽𝙾𝙿𝚀𝚁𝚂𝚃𝚄𝚅𝚆𝚇𝚈𝚉𝚊𝚋𝚌𝚍𝚎𝚏𝚐𝚑𝚒𝚓𝚔𝚕𝚖𝚗𝚘𝚙𝚚𝚛𝚜𝚝𝚞𝚟𝚠𝚡𝚢𝚣𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿",
-}
-`;
-
-exports[`weirdGlyph 14`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "double-struck",
-    "variant": "bold",
-  },
-  "result": "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡",
-}
-`;
-
-exports[`weirdGlyph 15`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "circle",
-    "variant": "regular",
-  },
-  "result": "ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ⓪①②③④⑤⑥⑦⑧⑨",
-}
-`;
-
-exports[`weirdGlyph 16`] = `
+exports[`weirdGlyph - { category: 'circle', variant: 'black' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
@@ -176,29 +11,18 @@ exports[`weirdGlyph 16`] = `
 }
 `;
 
-exports[`weirdGlyph 17`] = `
+exports[`weirdGlyph - { category: 'circle', variant: 'regular' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
-    "category": "square",
+    "category": "circle",
     "variant": "regular",
   },
-  "result": "🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉",
+  "result": "ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ⓪①②③④⑤⑥⑦⑧⑨",
 }
 `;
 
-exports[`weirdGlyph 18`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "square",
-    "variant": "black",
-  },
-  "result": "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉0123456789",
-}
-`;
-
-exports[`weirdGlyph 19`] = `
+exports[`weirdGlyph - { category: 'currency', variant: 'regular' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
@@ -209,128 +33,18 @@ exports[`weirdGlyph 19`] = `
 }
 `;
 
-exports[`weirdGlyph 20`] = `
+exports[`weirdGlyph - { category: 'double-struck', variant: 'bold' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
-    "category": "latin",
-    "variant": "extended",
+    "category": "double-struck",
+    "variant": "bold",
   },
-  "result": "ąҍçժҽƒցհìʝҟӀʍղօքզɾʂէմѵա×վՀąҍçժҽƒցհìʝҟӀʍղօքզɾʂէմѵա×վՀ0123456789",
+  "result": "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡",
 }
 `;
 
-exports[`weirdGlyph 21`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "cross",
-  },
-  "result": "αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥαႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ0123456789",
-}
-`;
-
-exports[`weirdGlyph 22`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "dot",
-  },
-  "result": "äḅċḋëḟġḧïjḳḷṁṅöṗqṛṡẗüṿẅẍÿżäḅċḋëḟġḧïjḳḷṁṅöṗqṛṡẗüṿẅẍÿż0123456789",
-}
-`;
-
-exports[`weirdGlyph 23`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "fireworks",
-  },
-  "result": "҉A҉҉B҉҉C҉҉D҉҉E҉҉F҉҉G҉҉H҉҉I҉҉J҉҉K҉҉L҉҉M҉҉N҉҉O҉҉P҉҉Q҉҉R҉҉S҉҉T҉҉U҉҉V҉҉W҉҉X҉҉Y҉҉Z҉҉a҉҉b҉҉c҉҉d҉҉e҉҉f҉҉g҉҉h҉҉i҉҉j҉҉k҉҉l҉҉m҉҉n҉҉o҉҉p҉҉q҉҉r҉҉s҉҉t҉҉u҉҉v҉҉w҉҉x҉҉y҉҉z҉҉0҉҉1҉҉2҉҉3҉҉4҉҉5҉҉6҉҉7҉҉8҉҉9҉",
-}
-`;
-
-exports[`weirdGlyph 24`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "line",
-  },
-  "result": "[̲̅A̲̲̅̅B̲̲̅̅C̲̲̅̅D̲̲̅̅E̲̲̅̅F̲̲̅̅G̲̲̅̅H̲̲̅̅I̲̲̅̅J̲̲̅̅K̲̲̅̅L̲̲̅̅M̲̲̅̅N̲̲̅̅O̲̲̅̅P̲̲̅̅Q̲̲̅̅R̲̲̅̅S̲̲̅̅T̲̲̅̅U̲̲̅̅V̲̲̅̅W̲̲̅̅X̲̲̅̅Y̲̲̅̅Z̲̲̅̅a̲̲̅̅b̲̲̅̅c̲̲̅̅d̲̲̅̅e̲̲̅̅f̲̲̅̅g̲̲̅̅h̲̲̅̅i̲̲̅̅j̲̲̅̅k̲̲̅̅l̲̲̅̅m̲̲̅̅n̲̲̅̅o̲̲̅̅p̲̲̅̅q̲̲̅̅r̲̲̅̅s̲̲̅̅t̲̲̅̅u̲̲̅̅v̲̲̅̅w̲̲̅̅x̲̲̅̅y̲̲̅̅z̲̲̅̅0̲̲̅̅1̲̲̅̅2̲̲̅̅3̲̲̅̅4̲̲̅̅5̲̲̅̅6̲̲̅̅7̲̲̅̅8̲̲̅̅9̲̅]",
-}
-`;
-
-exports[`weirdGlyph 25`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "slash",
-  },
-  "result": "A̸̸B̸̸C̸̸D̸̸E̸̸F̸̸G̸̸H̸̸I̸̸J̸̸K̸̸L̸̸M̸̸N̸̸O̸̸P̸̸Q̸̸R̸̸S̸̸T̸̸U̸̸V̸̸W̸̸X̸̸Y̸̸Z̸̸a̸̸b̸̸c̸̸d̸̸e̸̸f̸̸g̸̸h̸̸i̸̸j̸̸k̸̸l̸̸m̸̸n̸̸o̸̸p̸̸q̸̸r̸̸s̸̸t̸̸u̸̸v̸̸w̸̸x̸̸y̸̸z̸̸0̸̸1̸̸2̸̸3̸̸4̸̸5̸̸6̸̸7̸̸8̸̸9̸",
-}
-`;
-
-exports[`weirdGlyph 26`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "winding",
-  },
-  "result": "͜A͜͜͡͡B͜͜͡͡C͜͜͡͡D͜͜͡͡E͜͜͡͡F͜͜͡͡G͜͜͡͡H͜͜͡͡I͜͜͡͡J͜͜͡͡K͜͜͡͡L͜͜͡͡M͜͜͡͡N͜͜͡͡O͜͜͡͡P͜͜͡͡Q͜͜͡͡R͜͜͡͡S͜͜͡͡T͜͜͡͡U͜͜͡͡V͜͜͡͡W͜͜͡͡X͜͜͡͡Y͜͜͡͡Z͜͜͡͡a͜͜͡͡b͜͜͡͡c͜͜͡͡d͜͜͡͡e͜͜͡͡f͜͜͡͡g͜͜͡͡h͜͜͡͡i͜͜͡͡j͜͜͡͡k͜͜͡͡l͜͜͡͡m͜͜͡͡n͜͜͡͡o͜͜͡͡p͜͜͡͡q͜͜͡͡r͜͜͡͡s͜͜͡͡t͜͜͡͡u͜͜͡͡v͜͜͡͡w͜͜͡͡x͜͜͡͡y͜͜͡͡z͜͜͡͡0͜͜͡͡1͜͜͡͡2͜͜͡͡3͜͜͡͡4͜͜͡͡5͜͜͡͡6͜͜͡͡7͜͜͡͡8͜͜͡͡9͡",
-}
-`;
-
-exports[`weirdGlyph 27`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "latin",
-    "variant": "arrow",
-  },
-  "result": "A͎͎B͎͎C͎͎D͎͎E͎͎F͎͎G͎͎H͎͎I͎͎J͎͎K͎͎L͎͎M͎͎N͎͎O͎͎P͎͎Q͎͎R͎͎S͎͎T͎͎U͎͎V͎͎W͎͎X͎͎Y͎͎Z͎͎a͎͎b͎͎c͎͎d͎͎e͎͎f͎͎g͎͎h͎͎i͎͎j͎͎k͎͎l͎͎m͎͎n͎͎o͎͎p͎͎q͎͎r͎͎s͎͎t͎͎u͎͎v͎͎w͎͎x͎͎y͎͎z͎͎0͎͎1͎͎2͎͎3͎͎4͎͎5͎͎6͎͎7͎͎8͎͎9͎",
-}
-`;
-
-exports[`weirdGlyph 28`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "fancy",
-    "variant": "upside",
-  },
-  "result": "ɐqɔpǝɟƃɥıɾʞlɯuodbɹsʇnʌʍxʎzɐqɔpǝɟƃɥıɾʞlɯuodbɹsʇnʌʍxʎz0123456789",
-}
-`;
-
-exports[`weirdGlyph 29`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "fancy",
-    "variant": "smallcaps",
-  },
-  "result": "ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿",
-}
-`;
-
-exports[`weirdGlyph 30`] = `
-{
-  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
-  "options": {
-    "category": "fancy",
-    "variant": "tildestrikethrough",
-  },
-  "result": "̴A̴̴B̴̴C̴̴D̴̴E̴̴F̴̴G̴̴H̴̴I̴̴J̴̴K̴̴L̴̴M̴̴N̴̴O̴̴P̴̴Q̴̴R̴̴S̴̴T̴̴U̴̴V̴̴W̴̴X̴̴Y̴̴Z̴̴a̴̴b̴̴c̴̴d̴̴e̴̴f̴̴g̴̴h̴̴i̴̴j̴̴k̴̴l̴̴m̴̴n̴̴o̴̴p̴̴q̴̴r̴̴s̴̴t̴̴u̴̴v̴̴w̴̴x̴̴y̴̴z̴̴0̴̴1̴̴2̴̴3̴̴4̴̴5̴̴6̴̴7̴̴8̴̴9̴",
-}
-`;
-
-exports[`weirdGlyph 31`] = `
+exports[`weirdGlyph - { category: 'fancy', variant: 'happy' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
@@ -341,7 +55,7 @@ exports[`weirdGlyph 31`] = `
 }
 `;
 
-exports[`weirdGlyph 32`] = `
+exports[`weirdGlyph - { category: 'fancy', variant: 'sad' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
@@ -352,7 +66,40 @@ exports[`weirdGlyph 32`] = `
 }
 `;
 
-exports[`weirdGlyph 33`] = `
+exports[`weirdGlyph - { category: 'fancy', variant: 'smallcaps' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "fancy",
+    "variant": "smallcaps",
+  },
+  "result": "ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿",
+}
+`;
+
+exports[`weirdGlyph - { category: 'fancy', variant: 'tildestrikethrough' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "fancy",
+    "variant": "tildestrikethrough",
+  },
+  "result": "̴A̴̴B̴̴C̴̴D̴̴E̴̴F̴̴G̴̴H̴̴I̴̴J̴̴K̴̴L̴̴M̴̴N̴̴O̴̴P̴̴Q̴̴R̴̴S̴̴T̴̴U̴̴V̴̴W̴̴X̴̴Y̴̴Z̴̴a̴̴b̴̴c̴̴d̴̴e̴̴f̴̴g̴̴h̴̴i̴̴j̴̴k̴̴l̴̴m̴̴n̴̴o̴̴p̴̴q̴̴r̴̴s̴̴t̴̴u̴̴v̴̴w̴̴x̴̴y̴̴z̴̴0̴̴1̴̴2̴̴3̴̴4̴̴5̴̴6̴̴7̴̴8̴̴9̴",
+}
+`;
+
+exports[`weirdGlyph - { category: 'fancy', variant: 'upside' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "fancy",
+    "variant": "upside",
+  },
+  "result": "ɐqɔpǝɟƃɥıɾʞlɯuodbɹsʇnʌʍxʎzɐqɔpǝɟƃɥıɾʞlɯuodbɹsʇnʌʍxʎz0123456789",
+}
+`;
+
+exports[`weirdGlyph - { category: 'fancy', variant: 'xabove' } 1`] = `
 {
   "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
   "options": {
@@ -360,5 +107,258 @@ exports[`weirdGlyph 33`] = `
     "variant": "xabove",
   },
   "result": "͓̽A͓͓̽̽B͓͓̽̽C͓͓̽̽D͓͓̽̽E͓͓̽̽F͓͓̽̽G͓͓̽̽H͓͓̽̽I͓͓̽̽J͓͓̽̽K͓͓̽̽L͓͓̽̽M͓͓̽̽N͓͓̽̽O͓͓̽̽P͓͓̽̽Q͓͓̽̽R͓͓̽̽S͓͓̽̽T͓͓̽̽U͓͓̽̽V͓͓̽̽W͓͓̽̽X͓͓̽̽Y͓͓̽̽Z͓͓̽̽a͓͓̽̽b͓͓̽̽c͓͓̽̽d͓͓̽̽e͓͓̽̽f͓͓̽̽g͓͓̽̽h͓͓̽̽i͓͓̽̽j͓͓̽̽k͓͓̽̽l͓͓̽̽m͓͓̽̽n͓͓̽̽o͓͓̽̽p͓͓̽̽q͓͓̽̽r͓͓̽̽s͓͓̽̽t͓͓̽̽u͓͓̽̽v͓͓̽̽w͓͓̽̽x͓͓̽̽y͓͓̽̽z͓͓̽̽0͓͓̽̽1͓͓̽̽2͓͓̽̽3͓͓̽̽4͓͓̽̽5͓͓̽̽6͓͓̽̽7͓͓̽̽8͓͓̽̽9͓̽",
+}
+`;
+
+exports[`weirdGlyph - { category: 'fraktur', variant: 'bold' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "fraktur",
+    "variant": "bold",
+  },
+  "result": "𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟",
+}
+`;
+
+exports[`weirdGlyph - { category: 'fraktur', variant: 'regular' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "fraktur",
+    "variant": "regular",
+  },
+  "result": "𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'arrow' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "arrow",
+  },
+  "result": "A͎͎B͎͎C͎͎D͎͎E͎͎F͎͎G͎͎H͎͎I͎͎J͎͎K͎͎L͎͎M͎͎N͎͎O͎͎P͎͎Q͎͎R͎͎S͎͎T͎͎U͎͎V͎͎W͎͎X͎͎Y͎͎Z͎͎a͎͎b͎͎c͎͎d͎͎e͎͎f͎͎g͎͎h͎͎i͎͎j͎͎k͎͎l͎͎m͎͎n͎͎o͎͎p͎͎q͎͎r͎͎s͎͎t͎͎u͎͎v͎͎w͎͎x͎͎y͎͎z͎͎0͎͎1͎͎2͎͎3͎͎4͎͎5͎͎6͎͎7͎͎8͎͎9͎",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'cross' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "cross",
+  },
+  "result": "αႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥαႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ0123456789",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'dot' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "dot",
+  },
+  "result": "äḅċḋëḟġḧïjḳḷṁṅöṗqṛṡẗüṿẅẍÿżäḅċḋëḟġḧïjḳḷṁṅöṗqṛṡẗüṿẅẍÿż0123456789",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'extended' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "extended",
+  },
+  "result": "ąҍçժҽƒցհìʝҟӀʍղօքզɾʂէմѵա×վՀąҍçժҽƒցհìʝҟӀʍղօքզɾʂէմѵա×վՀ0123456789",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'fireworks' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "fireworks",
+  },
+  "result": "҉A҉҉B҉҉C҉҉D҉҉E҉҉F҉҉G҉҉H҉҉I҉҉J҉҉K҉҉L҉҉M҉҉N҉҉O҉҉P҉҉Q҉҉R҉҉S҉҉T҉҉U҉҉V҉҉W҉҉X҉҉Y҉҉Z҉҉a҉҉b҉҉c҉҉d҉҉e҉҉f҉҉g҉҉h҉҉i҉҉j҉҉k҉҉l҉҉m҉҉n҉҉o҉҉p҉҉q҉҉r҉҉s҉҉t҉҉u҉҉v҉҉w҉҉x҉҉y҉҉z҉҉0҉҉1҉҉2҉҉3҉҉4҉҉5҉҉6҉҉7҉҉8҉҉9҉",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'line' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "line",
+  },
+  "result": "[̲̅A̲̲̅̅B̲̲̅̅C̲̲̅̅D̲̲̅̅E̲̲̅̅F̲̲̅̅G̲̲̅̅H̲̲̅̅I̲̲̅̅J̲̲̅̅K̲̲̅̅L̲̲̅̅M̲̲̅̅N̲̲̅̅O̲̲̅̅P̲̲̅̅Q̲̲̅̅R̲̲̅̅S̲̲̅̅T̲̲̅̅U̲̲̅̅V̲̲̅̅W̲̲̅̅X̲̲̅̅Y̲̲̅̅Z̲̲̅̅a̲̲̅̅b̲̲̅̅c̲̲̅̅d̲̲̅̅e̲̲̅̅f̲̲̅̅g̲̲̅̅h̲̲̅̅i̲̲̅̅j̲̲̅̅k̲̲̅̅l̲̲̅̅m̲̲̅̅n̲̲̅̅o̲̲̅̅p̲̲̅̅q̲̲̅̅r̲̲̅̅s̲̲̅̅t̲̲̅̅u̲̲̅̅v̲̲̅̅w̲̲̅̅x̲̲̅̅y̲̲̅̅z̲̲̅̅0̲̲̅̅1̲̲̅̅2̲̲̅̅3̲̲̅̅4̲̲̅̅5̲̲̅̅6̲̲̅̅7̲̲̅̅8̲̲̅̅9̲̅]",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'slash' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "slash",
+  },
+  "result": "A̸̸B̸̸C̸̸D̸̸E̸̸F̸̸G̸̸H̸̸I̸̸J̸̸K̸̸L̸̸M̸̸N̸̸O̸̸P̸̸Q̸̸R̸̸S̸̸T̸̸U̸̸V̸̸W̸̸X̸̸Y̸̸Z̸̸a̸̸b̸̸c̸̸d̸̸e̸̸f̸̸g̸̸h̸̸i̸̸j̸̸k̸̸l̸̸m̸̸n̸̸o̸̸p̸̸q̸̸r̸̸s̸̸t̸̸u̸̸v̸̸w̸̸x̸̸y̸̸z̸̸0̸̸1̸̸2̸̸3̸̸4̸̸5̸̸6̸̸7̸̸8̸̸9̸",
+}
+`;
+
+exports[`weirdGlyph - { category: 'latin', variant: 'winding' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "latin",
+    "variant": "winding",
+  },
+  "result": "͜A͜͜͡͡B͜͜͡͡C͜͜͡͡D͜͜͡͡E͜͜͡͡F͜͜͡͡G͜͜͡͡H͜͜͡͡I͜͜͡͡J͜͜͡͡K͜͜͡͡L͜͜͡͡M͜͜͡͡N͜͜͡͡O͜͜͡͡P͜͜͡͡Q͜͜͡͡R͜͜͡͡S͜͜͡͡T͜͜͡͡U͜͜͡͡V͜͜͡͡W͜͜͡͡X͜͜͡͡Y͜͜͡͡Z͜͜͡͡a͜͜͡͡b͜͜͡͡c͜͜͡͡d͜͜͡͡e͜͜͡͡f͜͜͡͡g͜͜͡͡h͜͜͡͡i͜͜͡͡j͜͜͡͡k͜͜͡͡l͜͜͡͡m͜͜͡͡n͜͜͡͡o͜͜͡͡p͜͜͡͡q͜͜͡͡r͜͜͡͡s͜͜͡͡t͜͜͡͡u͜͜͡͡v͜͜͡͡w͜͜͡͡x͜͜͡͡y͜͜͡͡z͜͜͡͡0͜͜͡͡1͜͜͡͡2͜͜͡͡3͜͜͡͡4͜͜͡͡5͜͜͡͡6͜͜͡͡7͜͜͡͡8͜͜͡͡9͡",
+}
+`;
+
+exports[`weirdGlyph - { category: 'monospace', variant: 'regular' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "monospace",
+    "variant": "regular",
+  },
+  "result": "𝙰𝙱𝙲𝙳𝙴𝙵𝙶𝙷𝙸𝙹𝙺𝙻𝙼𝙽𝙾𝙿𝚀𝚁𝚂𝚃𝚄𝚅𝚆𝚇𝚈𝚉𝚊𝚋𝚌𝚍𝚎𝚏𝚐𝚑𝚒𝚓𝚔𝚕𝚖𝚗𝚘𝚙𝚚𝚛𝚜𝚝𝚞𝚟𝚠𝚡𝚢𝚣𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿",
+}
+`;
+
+exports[`weirdGlyph - { category: 'sans-serif', variant: 'bold' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "sans-serif",
+    "variant": "bold",
+  },
+  "result": "𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤𝗥𝗦𝗧𝗨𝗩𝗪𝗫𝗬𝗭𝗮𝗯𝗰𝗱𝗲𝗳𝗴𝗵𝗶𝗷𝗸𝗹𝗺𝗻𝗼𝗽𝗾𝗿𝘀𝘁𝘂𝘃𝘄𝘅𝘆𝘇𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵",
+}
+`;
+
+exports[`weirdGlyph - { category: 'sans-serif', variant: 'bold-italic' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "sans-serif",
+    "variant": "bold-italic",
+  },
+  "result": "𝘼𝘽𝘾𝘿𝙀𝙁𝙂𝙃𝙄𝙅𝙆𝙇𝙈𝙉𝙊𝙋𝙌𝙍𝙎𝙏𝙐𝙑𝙒𝙓𝙔𝙕𝙖𝙗𝙘𝙙𝙚𝙛𝙜𝙝𝙞𝙟𝙠𝙡𝙢𝙣𝙤𝙥𝙦𝙧𝙨𝙩𝙪𝙫𝙬𝙭𝙮𝙯",
+}
+`;
+
+exports[`weirdGlyph - { category: 'sans-serif', variant: 'italic' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "sans-serif",
+    "variant": "italic",
+  },
+  "result": "𝘈𝘉𝘊𝘋𝘌𝘍𝘎𝘏𝘐𝘑𝘒𝘓𝘔𝘕𝘖𝘗𝘘𝘙𝘚𝘛𝘜𝘝𝘞𝘟𝘠𝘡𝘢𝘣𝘤𝘥𝘦𝘧𝘨𝘩𝘪𝘫𝘬𝘭𝘮𝘯𝘰𝘱𝘲𝘳𝘴𝘵𝘶𝘷𝘸𝘹𝘺𝘻",
+}
+`;
+
+exports[`weirdGlyph - { category: 'sans-serif', variant: 'regular' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "sans-serif",
+    "variant": "regular",
+  },
+  "result": "𝖠𝖡𝖢𝖣𝖤𝖥𝖦𝖧𝖨𝖩𝖪𝖫𝖬𝖭𝖮𝖯𝖰𝖱𝖲𝖳𝖴𝖵𝖶𝖷𝖸𝖹𝖺𝖻𝖼𝖽𝖾𝖿𝗀𝗁𝗂𝗃𝗄𝗅𝗆𝗇𝗈𝗉𝗊𝗋𝗌𝗍𝗎𝗏𝗐𝗑𝗒𝗓𝟢𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫",
+}
+`;
+
+exports[`weirdGlyph - { category: 'script', variant: 'bold' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "script",
+    "variant": "bold",
+  },
+  "result": "𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃",
+}
+`;
+
+exports[`weirdGlyph - { category: 'script', variant: 'regular' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "script",
+    "variant": "regular",
+  },
+  "result": "𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏",
+}
+`;
+
+exports[`weirdGlyph - { category: 'serif', variant: 'bold' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "serif",
+    "variant": "bold",
+  },
+  "result": "𝐀𝐁𝐂𝐃𝐄𝐅𝐆𝐇𝐈𝐉𝐊𝐋𝐌𝐍𝐎𝐏𝐐𝐑𝐒𝐓𝐔𝐕𝐖𝐗𝐘𝐙𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗",
+}
+`;
+
+exports[`weirdGlyph - { category: 'serif', variant: 'bold-italic' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "serif",
+    "variant": "bold-italic",
+  },
+  "result": "𝑨𝑩𝑪𝑫𝑬𝑭𝑮𝑯𝑰𝑱𝑲𝑳𝑴𝑵𝑶𝑷𝑸𝑹𝑺𝑻𝑼𝑽𝑾𝑿𝒀𝒁𝒂𝒃𝒄𝒅𝒆𝒇𝒈𝒉𝒊𝒋𝒌𝒍𝒎𝒏𝒐𝒑𝒒𝒓𝒔𝒕𝒖𝒗𝒘𝒙𝒚𝒛",
+}
+`;
+
+exports[`weirdGlyph - { category: 'serif', variant: 'italic' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "serif",
+    "variant": "italic",
+  },
+  "result": "𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍𝑎𝑏𝑐𝑑𝑒𝑓𝑔ℎ𝑖𝑗𝑘𝑙𝑚𝑛𝑜𝑝𝑞𝑟𝑠𝑡𝑢𝑣𝑤𝑥𝑦𝑧",
+}
+`;
+
+exports[`weirdGlyph - { category: 'serif', variant: 'regular' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "serif",
+    "variant": "regular",
+  },
+  "result": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+}
+`;
+
+exports[`weirdGlyph - { category: 'square', variant: 'black' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "square",
+    "variant": "black",
+  },
+  "result": "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉0123456789",
+}
+`;
+
+exports[`weirdGlyph - { category: 'square', variant: 'regular' } 1`] = `
+{
+  "input": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+  "options": {
+    "category": "square",
+    "variant": "regular",
+  },
+  "result": "🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉",
 }
 `;

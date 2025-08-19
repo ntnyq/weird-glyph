@@ -2,7 +2,7 @@ import { expect, it } from 'vitest'
 import { BASE_GLYPHS_STRING, weirdGlyph } from '../src/core'
 import { FIXTURES } from './fixtures'
 
-it.each(FIXTURES)('weirdGlyph', fixture => {
+it.each(FIXTURES)('weirdGlyph - %s', fixture => {
   const result = weirdGlyph(BASE_GLYPHS_STRING, {
     category: fixture.category,
     variant: fixture.variant,

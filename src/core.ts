@@ -28,10 +28,10 @@ export function weirdGlyph(input: string, options: Options) {
       input.split('').forEach(char => {
         const idx = BASE_GLYPHS_STRING.indexOf(char)
 
-        if (idx !== -1) {
-          result.push(variantData[idx])
-        } else {
+        if (idx === -1) {
           result.push(char)
+        } else {
+          result.push(variantData[idx])
         }
       })
 
