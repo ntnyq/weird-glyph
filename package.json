@@ -2,7 +2,7 @@
   "name": "weird-glyph",
   "type": "module",
   "version": "0.0.3",
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.27.0",
   "description": "Transform common glyphs to weird glyphs.",
   "keywords": [
     "weird-glyph"
@@ -38,6 +38,7 @@
     "play": "pnpm -C playground run dev",
     "play:build": "pnpm -C playground run build",
     "prepare": "husky",
+    "prepublishOnly": "pnpm run build",
     "release": "run-s release:check release:version",
     "release:check": "run-s build lint typecheck test",
     "release:version": "bumpp",
@@ -45,7 +46,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^5.8.0",
+    "@ntnyq/eslint-config": "^5.9.0",
     "@ntnyq/prettier-config": "^3.0.1",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
@@ -53,7 +54,7 @@
     "nano-staged": "^0.9.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.7.4",
-    "tsdown": "^0.18.3",
+    "tsdown": "^0.19.0-beta.3",
     "typescript": "^5.9.3",
     "vitest": "^4.0.16"
   },
