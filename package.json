@@ -2,7 +2,7 @@
   "name": "weird-glyph",
   "type": "module",
   "version": "0.0.4",
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.28.2",
   "description": "Transform common glyphs to weird glyphs.",
   "keywords": [
     "weird-glyph"
