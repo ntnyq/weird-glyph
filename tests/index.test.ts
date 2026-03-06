@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { BASE_GLYPHS_STRING, weirdGlyph } from '../src/core'
 import { FIXTURES } from './fixtures'
 
-describe('weirdGlyph', () => {
+describe(weirdGlyph, () => {
   it.each(FIXTURES)('should convert all glyphs for %s', fixture => {
     const result = weirdGlyph(BASE_GLYPHS_STRING, {
       category: fixture.category,
@@ -123,7 +123,7 @@ describe('weirdGlyph', () => {
   })
 })
 
-describe('BASE_GLYPHS_STRING', () => {
+describe(BASE_GLYPHS_STRING, () => {
   it('should contain exactly 62 characters', () => {
     expect(BASE_GLYPHS_STRING).toHaveLength(62)
   })

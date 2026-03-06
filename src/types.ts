@@ -57,7 +57,7 @@ export type WeirdGlyphVariant =
 /**
  * Weird glyph data
  */
-export type WeirdGlyphData = {
+export interface WeirdGlyphData {
   circle: {
     black: WeirdGlyphs
     regular: WeirdGlyphs

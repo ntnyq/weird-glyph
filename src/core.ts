@@ -21,6 +21,8 @@ const GLYPH_INDEX_MAP = new Map(
 
 /**
  * Type guard to check if category exists in data
+ * @param category - category to check
+ * @returns true if category is valid, false otherwise
  */
 function isCategoryValid(
   category: WeirdGlyphCategory,
@@ -30,6 +32,9 @@ function isCategoryValid(
 
 /**
  * Type guard to check if variant exists in category
+ * @param categoryData - data of the category
+ * @param variant - variant to check
+ * @returns true if variant is valid, false otherwise
  */
 function isVariantValid(
   categoryData: Record<string, WeirdGlyphs>,

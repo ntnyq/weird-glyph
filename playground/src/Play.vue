@@ -8,10 +8,10 @@ const input = ref(
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet aliquam lectus.',
 )
 
-const groups: Array<{
+const groups: {
   category: WeirdGlyphCategory
   variant: WeirdGlyphVariant
-}> = []
+}[] = []
 
 Object.keys(weirdGlyphData).forEach(category => {
   const categoryData = weirdGlyphData[category as WeirdGlyphCategory]
