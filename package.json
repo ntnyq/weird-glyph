@@ -2,7 +2,7 @@
   "name": "weird-glyph",
   "type": "module",
   "version": "0.0.4",
-  "packageManager": "pnpm@10.31.0",
+  "packageManager": "pnpm@10.32.1",
   "description": "Transform common glyphs to weird glyphs.",
   "keywords": [
     "weird-glyph"
@@ -54,9 +54,9 @@
     "nano-staged": "^0.9.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.8.1",
-    "tsdown": "^0.21.0",
+    "tsdown": "^0.21.3",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.18"
+    "vitest": "^4.1.0"
   },
   "engines": {
     "node": ">=20.11.0"
