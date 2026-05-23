@@ -47,22 +47,22 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "bumpp": "^11.0.1",
+    "bumpp": "^11.1.0",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
-    "npm-run-all2": "^8.0.4",
-    "oxfmt": "^0.45.0",
-    "oxlint": "^1.60.0",
-    "tsdown": "^0.21.9",
+    "npm-run-all2": "^9.0.2",
+    "oxfmt": "^0.57.0",
+    "oxlint": "^1.72.0",
+    "tsdown": "^0.22.3",
     "typescript": "^6.0.3",
-    "vitest": "^4.1.4"
+    "vitest": "^4.1.9"
   },
   "nano-staged": {
     "*.{js,ts,mjs,tsx,vue}": "oxlint --fix",
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
   "engines": {
-    "node": ">=20.11.0"
+    "node": "^22.19.0 || >=24.11.0"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.9.0"
 }

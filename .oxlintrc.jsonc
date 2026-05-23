@@ -58,6 +58,7 @@
     "unicorn/prefer-global-this": "off",
     "unicorn/prefer-spread": "off",
     "unicorn/no-array-for-each": "off",
+    "unicorn/prefer-export-from": "off",
     "func-style": ["warn", "declaration", { "allowArrowFunctions": true }],
     "id-length": [
       "warn",
@@ -93,7 +94,13 @@
   },
   "overrides": [
     {
-      "files": ["playground/**/*.{ts,tsx,vue}"],
+      "files": ["*.d.ts"],
+      "rules": {
+        "import/unambiguous": "off",
+      },
+    },
+    {
+      "files": ["**/playground/**"],
       "env": {
         "browser": true,
         "es6": true,
@@ -101,13 +108,7 @@
       "rules": {},
     },
     {
-      "files": ["*.d.ts"],
-      "rules": {
-        "import/unambiguous": "off",
-      },
-    },
-    {
-      "files": ["App.vue", "Play.vue", "**/components/**/*.{vue,tsx"],
+      "files": ["App.vue", "Play.vue", "**/components/**/*.{vue,tsx}"],
       "rules": {
         "unicorn/filename-case": [
           "warn",
@@ -143,6 +144,10 @@
         "typescript/no-invalid-void-type": "off",
         "typescript/prefer-ts-expect-error": "off",
         "typescript/require-array-sort-compare": "off",
+        "vitest/valid-title": "off",
+        "vitest/require-hook": "off",
+        "vitest/require-test-timeout": "off",
+        "vitest/prefer-expect-assertions": "off",
         "vitest/no-importing-vitest-globals": "off",
       },
     },

@@ -3,15 +3,17 @@ import { ref, shallowRef, watchEffect } from 'vue'
 import { weirdGlyph, weirdGlyphData } from 'weird-glyph'
 import type { WeirdGlyphCategory, WeirdGlyphVariant } from 'weird-glyph'
 
+interface WeirdGlyphGroup {
+  category: WeirdGlyphCategory
+  variant: WeirdGlyphVariant
+}
+
 const input = ref(
   // cSpell: disable-next-line
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet aliquam lectus.',
 )
 
-const groups: {
-  category: WeirdGlyphCategory
-  variant: WeirdGlyphVariant
-}[] = []
+const groups: WeirdGlyphGroup[] = []
 
 Object.keys(weirdGlyphData).forEach(category => {
   const categoryData = weirdGlyphData[category as WeirdGlyphCategory]
