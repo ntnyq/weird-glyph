@@ -20,21 +20,21 @@ describe(weirdGlyph, () => {
 
   it('should return original input for invalid category', () => {
     const input = 'Hello World',
-     result = weirdGlyph(input, {
-      // @ts-expect-error invalid category for testing
-      category: 'invalid-category',
-      variant: 'regular',
-    })
+      result = weirdGlyph(input, {
+        // @ts-expect-error invalid category for testing
+        category: 'invalid-category',
+        variant: 'regular',
+      })
     expect(result).toBe(input)
   })
 
   it('should return original input for invalid variant', () => {
     const input = 'Hello World',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      // @ts-expect-error invalid variant for testing
-      variant: 'invalid-variant',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        // @ts-expect-error invalid variant for testing
+        variant: 'invalid-variant',
+      })
     expect(result).toBe(input)
   })
 
@@ -48,10 +48,10 @@ describe(weirdGlyph, () => {
 
   it('should preserve unsupported characters', () => {
     const input = 'Hello! @#$% 世界',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      variant: 'bold',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        variant: 'bold',
+      })
     // Should convert H, e, l, o but preserve !, @, #, $, %, space, and Chinese characters
     expect(result).toContain('!')
     expect(result).toContain('@')
@@ -61,10 +61,10 @@ describe(weirdGlyph, () => {
 
   it('should handle mixed supported and unsupported characters', () => {
     const input = 'Test123!@#',
-     result = weirdGlyph(input, {
-      category: 'monospace',
-      variant: 'regular',
-    })
+      result = weirdGlyph(input, {
+        category: 'monospace',
+        variant: 'regular',
+      })
     // T, e, s, t, 1, 2, 3 should be converted
     // !, @, # should be preserved
     expect(result).toContain('!')
@@ -75,48 +75,48 @@ describe(weirdGlyph, () => {
 
   it('should handle strings with only unsupported characters', () => {
     const input = '!@#$%^&*()',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      variant: 'bold',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        variant: 'bold',
+      })
     expect(result).toBe(input)
   })
 
   it('should convert uppercase letters correctly', () => {
     const input = 'ABCXYZ',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      variant: 'bold',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        variant: 'bold',
+      })
     // cSpell: disable-next-line
     expect(result).toBe('𝐀𝐁𝐂𝐗𝐘𝐙')
   })
 
   it('should convert lowercase letters correctly', () => {
     const input = 'abcxyz',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      variant: 'bold',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        variant: 'bold',
+      })
     // cSpell: disable-next-line
     expect(result).toBe('𝐚𝐛𝐜𝐱𝐲𝐳')
   })
 
   it('should convert digits correctly', () => {
     const input = '0123456789',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      variant: 'bold',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        variant: 'bold',
+      })
     expect(result).toBe('𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗')
   })
 
   it('should handle spaces correctly', () => {
     const input = 'Hello World',
-     result = weirdGlyph(input, {
-      category: 'serif',
-      variant: 'bold',
-    })
+      result = weirdGlyph(input, {
+        category: 'serif',
+        variant: 'bold',
+      })
     expect(result).toContain(' ')
     const parts = result.split(' ')
     expect(parts).toHaveLength(2)

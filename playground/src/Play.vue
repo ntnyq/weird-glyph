@@ -9,15 +9,14 @@ interface WeirdGlyphGroup {
 }
 
 const input = ref(
-  // cSpell: disable-next-line
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet aliquam lectus.',
-),
-
- groups: WeirdGlyphGroup[] = []
+    // cSpell: disable-next-line
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet aliquam lectus.',
+  ),
+  groups: WeirdGlyphGroup[] = []
 
 Object.keys(weirdGlyphData).forEach(category => {
   const categoryData = weirdGlyphData[category as WeirdGlyphCategory],
-   variants = Object.keys(categoryData)
+    variants = Object.keys(categoryData)
 
   variants.forEach(variant => {
     groups.push({

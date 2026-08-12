@@ -24,15 +24,15 @@ export function toggleDark(event?: MouseEvent) {
   }
 
   const x = event.clientX,
-   y = event.clientY,
-   endRadius = Math.hypot(
-    Math.max(x, innerWidth - x),
-    Math.max(y, innerHeight - y),
-  ),
-   transition = document.startViewTransition(async () => {
-    isDark.value = !isDark.value
-    await nextTick()
-  })
+    y = event.clientY,
+    endRadius = Math.hypot(
+      Math.max(x, innerWidth - x),
+      Math.max(y, innerHeight - y),
+    ),
+    transition = document.startViewTransition(async () => {
+      isDark.value = !isDark.value
+      await nextTick()
+    })
 
   transition.ready.then(() => {
     const clipPath = [
