@@ -19,8 +19,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should return original input for invalid category', () => {
-    const input = 'Hello World'
-    const result = weirdGlyph(input, {
+    const input = 'Hello World',
+     result = weirdGlyph(input, {
       // @ts-expect-error invalid category for testing
       category: 'invalid-category',
       variant: 'regular',
@@ -29,8 +29,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should return original input for invalid variant', () => {
-    const input = 'Hello World'
-    const result = weirdGlyph(input, {
+    const input = 'Hello World',
+     result = weirdGlyph(input, {
       category: 'serif',
       // @ts-expect-error invalid variant for testing
       variant: 'invalid-variant',
@@ -47,8 +47,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should preserve unsupported characters', () => {
-    const input = 'Hello! @#$% 世界'
-    const result = weirdGlyph(input, {
+    const input = 'Hello! @#$% 世界',
+     result = weirdGlyph(input, {
       category: 'serif',
       variant: 'bold',
     })
@@ -60,8 +60,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should handle mixed supported and unsupported characters', () => {
-    const input = 'Test123!@#'
-    const result = weirdGlyph(input, {
+    const input = 'Test123!@#',
+     result = weirdGlyph(input, {
       category: 'monospace',
       variant: 'regular',
     })
@@ -74,8 +74,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should handle strings with only unsupported characters', () => {
-    const input = '!@#$%^&*()'
-    const result = weirdGlyph(input, {
+    const input = '!@#$%^&*()',
+     result = weirdGlyph(input, {
       category: 'serif',
       variant: 'bold',
     })
@@ -83,8 +83,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should convert uppercase letters correctly', () => {
-    const input = 'ABCXYZ'
-    const result = weirdGlyph(input, {
+    const input = 'ABCXYZ',
+     result = weirdGlyph(input, {
       category: 'serif',
       variant: 'bold',
     })
@@ -93,8 +93,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should convert lowercase letters correctly', () => {
-    const input = 'abcxyz'
-    const result = weirdGlyph(input, {
+    const input = 'abcxyz',
+     result = weirdGlyph(input, {
       category: 'serif',
       variant: 'bold',
     })
@@ -103,8 +103,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should convert digits correctly', () => {
-    const input = '0123456789'
-    const result = weirdGlyph(input, {
+    const input = '0123456789',
+     result = weirdGlyph(input, {
       category: 'serif',
       variant: 'bold',
     })
@@ -112,8 +112,8 @@ describe(weirdGlyph, () => {
   })
 
   it('should handle spaces correctly', () => {
-    const input = 'Hello World'
-    const result = weirdGlyph(input, {
+    const input = 'Hello World',
+     result = weirdGlyph(input, {
       category: 'serif',
       variant: 'bold',
     })

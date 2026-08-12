@@ -7,8 +7,8 @@ const FIXTURES: {
 }[] = []
 
 Object.keys(weirdGlyphData).forEach(category => {
-  const categoryData = weirdGlyphData[category as WeirdGlyphCategory]
-  const variants = Object.keys(categoryData)
+  const categoryData = weirdGlyphData[category as WeirdGlyphCategory],
+   variants = Object.keys(categoryData)
 
   variants.forEach(variant => {
     FIXTURES.push({
