@@ -47,7 +47,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "bumpp": "^11.1.0",
+    "bumpp": "^12.2.2",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "npm-run-all2": "^9.0.2",
