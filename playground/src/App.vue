@@ -4,9 +4,9 @@ import Play from './Play.vue'
 </script>
 
 <template>
-  <div class="flex flex-col">
+  <div class="min-h-screen">
     <Navbar />
-    <main class="h-[calc(100vh-var(--h-navbar))]">
+    <main id="playground">
       <Play />
     </main>
   </div>

@@ -1,76 +1,42 @@
 <script lang="ts" setup>
-import { ref, shallowRef, watchEffect } from 'vue'
-import { weirdGlyph, weirdGlyphData } from 'weird-glyph'
-import type { WeirdGlyphCategory, WeirdGlyphVariant } from 'weird-glyph'
+import { computed, shallowRef } from 'vue'
+import { weirdGlyph } from 'weird-glyph'
+import GlyphComposer from './components/playground/GlyphComposer.vue'
+import GlyphGallery from './components/playground/GlyphGallery.vue'
+import { glyphStyles } from './utils/glyphs'
 
-interface WeirdGlyphGroup {
-  category: WeirdGlyphCategory
-  variant: WeirdGlyphVariant
-}
-
-const input = ref(
-  // cSpell: disable-next-line
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet aliquam lectus.',
+const input = shallowRef('Stay a little weird.')
+const glyphs = computed(() =>
+  glyphStyles.map(style => ({
+    ...style,
+    output: weirdGlyph(input.value, style),
+  })),
 )
-
-const groups: WeirdGlyphGroup[] = []
-
-Object.keys(weirdGlyphData).forEach(category => {
-  const categoryData = weirdGlyphData[category as WeirdGlyphCategory]
-  const variants = Object.keys(categoryData)
-
-  variants.forEach(variant => {
-    groups.push({
-      category: category as WeirdGlyphCategory,
-      variant: variant as WeirdGlyphVariant,
-    })
-  })
-})
-
-interface WeirdGlyphItem {
-  key: string
-  category: string
-  variant: string
-  output: string
-}
-
-const weirdGlyphList = shallowRef<WeirdGlyphItem[]>([])
-
-watchEffect(() => {
-  const result = groups.map(item => ({
-    ...item,
-    key: item.category + item.variant,
-    output: weirdGlyph(input.value, item),
-  }))
-  weirdGlyphList.value = result
-})
+const previews = computed(() =>
+  glyphs.value.filter(item =>
+    ['script:regular', 'circle:regular', 'fraktur:regular'].includes(item.id),
+  ),
+)
 </script>
 
 <template>
-  <div class="relative h-full of-y-auto p-4">
-    <div class="relative mx-auto my-8 max-w-3xl">
-      <input
-        v-model.trim="input"
-        type="text"
-        class="block w-full border border-base rounded px-4 py-2 text-lg font-medium"
-        placeholder="Input something..."
-        maxlength="200"
-      />
-    </div>
-
-    <div class="relative mx-auto max-w-3xl break-all">
-      <ul class="relative space-y-6">
-        <li
-          v-for="item in weirdGlyphList"
-          :key="item.key"
-          class="relative border border-base rounded-md p-6 shadow space-y-3"
-        >
-          <p class="text-2xl">{{ item.output || '--' }}</p>
-          <h2 class="text-right text-xl font-semibold op-75">
-            {{ item.category }}:{{ item.variant }}
-          </h2>
-        </li>
-      </ul>
-    </div>
+  <div class="page-shell">
+    <GlyphComposer
+      v-model="input"
+      :previews="previews"
+    />
+    <GlyphGallery :items="glyphs" />
+    <footer
+      class="mt-14 flex flex-wrap items-center justify-between gap-3 border-t border-base py-7 text-xs text-muted"
+    >
+      <span>A little different. Still your words.</span>
+      <span class="flex items-center gap-2">
+        <span
+          class="i-ri:code-s-slash-line"
+          aria-hidden="true"
+        />
+        Made with weird-glyph
+      </span>
+    </footer>
   </div>
 </template>

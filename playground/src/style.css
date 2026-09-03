@@ -1,46 +1,124 @@
-:root {
-  --c-bg-base: #fff;
-  --c-text-base: #232323;
-  --c-border: #ccc;
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500 600;
+  font-display: swap;
+  src: url("/fonts/space-grotesk-latin.woff2") format("woff2");
+}
 
-  --h-navbar: 60px;
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/dm-sans-latin.woff2") format("woff2");
+}
+
+:root {
+  color-scheme: light;
+  --c-bg-base: #f5f4f8;
+  --c-surface: #fff;
+  --c-text-base: #282432;
+  --c-muted: #77727f;
+  --c-accent: #7755d9;
+  --c-accent-soft: #eae3fb;
+  --c-border: color-mix(in srgb, var(--c-muted) 17%, transparent);
+  --c-input-border: color-mix(in srgb, var(--c-accent) 36%, var(--c-surface));
+  --c-shadow: color-mix(in srgb, var(--c-accent) 42%, var(--c-text-base));
+  --c-filter-bg: color-mix(in srgb, var(--c-muted) 8%, transparent);
+  --font-body: "DM Sans", "Avenir Next", sans-serif;
+  --font-display: "Space Grotesk", "Avenir Next", sans-serif;
+  --font-glyph:
+    "Cambria Math", "STIX Two Math", "Noto Sans Math", "Apple Symbols",
+    "Segoe UI Symbol", serif;
 }
 
 :root.dark {
   color-scheme: dark;
-  --c-bg-base: #1e1e1e;
-  --c-text-base: #fff;
-  --c-border: #666;
+  --c-bg-base: #19171f;
+  --c-surface: #24212d;
+  --c-text-base: #f2eff8;
+  --c-muted: #b3acbf;
+  --c-accent: #b6a0f8;
+  --c-accent-soft: #39304c;
+  --c-shadow: var(--c-bg-base);
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
 body {
-  background-color: var(--c-bg-base);
-  font-size: 16px;
+  min-width: 320px;
+  background: var(--c-bg-base);
   color: var(--c-text-base);
+  font-family: var(--font-body);
+  font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* Color Mode transition */
+button:not(:disabled),
+a {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+::selection {
+  background: var(--c-accent-soft);
+  color: var(--c-text-base);
+}
+:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 4px;
+}
+.page-shell {
+  width: min(100% - 80px, 1104px);
+  margin-inline: auto;
+}
+.glyph-refresh {
+  animation: glyph-refresh 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes glyph-refresh {
+  from {
+    opacity: 0.55;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 639px) {
+  .page-shell {
+    width: calc(100% - 36px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .glyph-refresh {
+    animation: none;
+  }
+}
+/* Keep the existing circular color-mode transition. */
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation: none;
   mix-blend-mode: normal;
 }
-
 ::view-transition-old(root) {
   z-index: 1;
 }
-
 ::view-transition-new(root) {
   z-index: 2147483646;
 }
-
 .dark::view-transition-old(root) {
   z-index: 2147483646;
 }
-
 .dark::view-transition-new(root) {
   z-index: 1;
 }

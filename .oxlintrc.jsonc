@@ -95,6 +95,13 @@
   },
   "overrides": [
     {
+      "files": ["**/*.vue"],
+      "globals": {
+        "defineProps": "readonly",
+        "defineModel": "readonly",
+      },
+    },
+    {
       "files": ["*.d.ts"],
       "rules": {
         "import/unambiguous": "off",

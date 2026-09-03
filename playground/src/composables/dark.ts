@@ -7,7 +7,7 @@ import { nextTick } from 'vue'
 
 export const isDark = useDark()
 
-const supportViewTransition =
+const shouldUseViewTransition = () =>
   typeof document !== 'undefined' &&
   Boolean(document.startViewTransition) &&
   !window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -18,7 +18,7 @@ const supportViewTransition =
  * @param event - The mouse event from the click, used to determine the origin of the transition
  */
 export function toggleDark(event?: MouseEvent) {
-  if (!supportViewTransition || !event) {
+  if (!event || !shouldUseViewTransition()) {
     isDark.value = !isDark.value
     return
   }
@@ -46,6 +46,7 @@ export function toggleDark(event?: MouseEvent) {
       {
         duration: 400,
         easing: 'ease-in',
+        fill: 'forwards',
         pseudoElement: isDark.value
           ? '::view-transition-old(root)'
           : '::view-transition-new(root)',

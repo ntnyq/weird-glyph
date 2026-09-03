@@ -4,6 +4,9 @@
     "lib": ["DOM", "ES2023"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "paths": {
+      "weird-glyph": ["./src/index.ts"]
+    },
     "types": [],
     "resolveJsonModule": true,
     "erasableSyntaxOnly": true,
