@@ -47,15 +47,15 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "bumpp": "^11.1.0",
+    "bumpp": "^12.2.3",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
-    "npm-run-all2": "^9.0.2",
-    "oxfmt": "^0.57.0",
-    "oxlint": "^1.72.0",
-    "tsdown": "^0.22.3",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.9"
+    "npm-run-all2": "^9.0.3",
+    "oxfmt": "^0.66.0",
+    "oxlint": "^1.81.0",
+    "tsdown": "^0.22.14",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
   },
   "nano-staged": {
     "*.{js,ts,mjs,tsx,vue}": "oxlint --fix",
@@ -64,5 +64,5 @@
   "engines": {
     "node": "^22.19.0 || >=24.11.0"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.25.0"
 }
