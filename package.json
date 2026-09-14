@@ -47,13 +47,13 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "bumpp": "^12.2.3",
+    "bumpp": "^12.3.0",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.66.0",
     "oxlint": "^1.81.0",
-    "tsdown": "^0.22.14",
+    "tsdown": "^0.23.0",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11"
   },
@@ -64,5 +64,5 @@
   "engines": {
     "node": "^22.19.0 || >=24.11.0"
   },
-  "packageManager": "pnpm@12.1.0"
+  "packageManager": "pnpm@12.3.4"
 }
