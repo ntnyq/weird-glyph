@@ -3,20 +3,23 @@ import { BASE_GLYPHS_STRING, weirdGlyph } from '../src/core'
 import { FIXTURES } from './fixtures'
 
 describe(weirdGlyph, () => {
-  it.each(FIXTURES)('should convert all glyphs for %s', fixture => {
-    const result = weirdGlyph(BASE_GLYPHS_STRING, {
-      category: fixture.category,
-      variant: fixture.variant,
-    })
-    expect({
-      result,
-      options: {
+  it.each(FIXTURES)(
+    'should convert all glyphs for $category/$variant',
+    fixture => {
+      const result = weirdGlyph(BASE_GLYPHS_STRING, {
         category: fixture.category,
         variant: fixture.variant,
-      },
-      input: BASE_GLYPHS_STRING,
-    }).toMatchSnapshot()
-  })
+      })
+      expect({
+        result,
+        options: {
+          category: fixture.category,
+          variant: fixture.variant,
+        },
+        input: BASE_GLYPHS_STRING,
+      }).toMatchSnapshot()
+    },
+  )
 
   it('should return original input for invalid category', () => {
     const input = 'Hello World'
